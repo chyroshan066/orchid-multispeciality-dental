@@ -228,7 +228,7 @@ export default function RootLayout({
           className="bottom-[120px]! md:bottom-[180px]!"
         />
         <ActionBtn
-          ionIconLink="https://wa.me/9779849898058"
+          ionIconLink="https://wa.me/9779819239757"
           ionIconName="logo-whatsapp"
           style={{ backgroundColor: "#46c754" }}
           className="bottom-[70px]! md:bottom-[130px]!"
