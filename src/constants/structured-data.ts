@@ -100,7 +100,7 @@ export const dentalClinicStructuredData: DentalBusinessStructuredData = {
   "@type": "Dentist",
   "name": "Pathivara Dental Care and Implant Centre", 
   "description": "Professional dental care services in Birtamode. Comprehensive oral health treatments including routine checkups, advanced procedures, orthodontics, and emergency dental care. Modern equipment, experienced dentists, and patient-focused approach.", 
-  "url": "https://www.pathivaradentalcare.com.np",
+  "url": "https://www.orchidmultispecialitydental.com.np",
   
   "address": {
     "@type": "PostalAddress",

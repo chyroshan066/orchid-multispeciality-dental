@@ -82,18 +82,18 @@ declare global {
 // Both clinic locations (defined outside component to prevent re-creation)
 const CLINIC_LOCATIONS: ClinicLocation[] = [
     {
-        lat: 26.64337,
-        lng: 87.99309,
-        name: "Pathivara Dental Care & Implant Centre",
-        address: "Opposite to Hotel Hicola Heritage, Birtamode-05, Jhapa, Nepal",
-        phone: "023-536424"
+        lat: 27.69446,
+        lng: 85.37035,
+        name: "Kathmandu Branch",
+        address: "Suncity, Kageshwori Manohara, Kathmandu, Nepal",
+        phone: "9819239757"
     },
     {
-        lat: 26.66049, // Update with actual Dhulabari coordinates
-        lng: 88.10066, // Update with actual Dhulabari coordinates
-        name: "Pathivara Apollo Dental Clinic",
-        address: "20m north to Asian Highway, Mechinagar-10, Jhapa, Nepal",
-        phone: "023-564142" // Update with actual phone number
+        lat: 26.65988, 
+        lng: 87.69212,
+        name: "Damak Branch",
+        address: "Namaste Hospital - First Floor, Damak, Jhapa, Nepal",
+        phone: "9819239757" 
     }
 ];
 
@@ -300,7 +300,7 @@ export const Maps: React.FC = () => {
                         margin: '20px auto 0',
                         color: 'var(--teal-gray)'
                     }}>
-                        Visit either of our conveniently located branches in Birtamode or Dhulabari for comprehensive dental care.
+                        Visit either of our conveniently located branches in Kathmandu or Damak for comprehensive dental care.
                     </p>
                 </div>
 

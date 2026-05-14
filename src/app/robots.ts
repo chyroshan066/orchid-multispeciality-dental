@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',  // '/' means allow crawling of the entire root directory
       disallow: ['/_next/static/', '/_next/image/'], // "disallow" prevents search engines from wasting time on irrelevant pages.
     },
-    sitemap: 'https://www.pathivaradentalcare.com.np/sitemap.xml',
+    sitemap: 'https://www.orchidmultispecialitydental.com.np/sitemap.xml',
   };
 }

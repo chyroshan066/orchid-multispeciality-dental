@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.pathivaradentalcare.com.np";
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://www.orchidmultispecialitydental.com.np";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Core clinic pages

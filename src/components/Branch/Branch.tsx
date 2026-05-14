@@ -10,38 +10,33 @@ interface BranchData {
     phone: string;
     email?: string;
     timing: string;
+    timing2: string;
     mapLink: string;
 }
 
 const BRANCHES: BranchData[] = [
     {
-        name: "Pathivara Dental Care & Implant Centre - Birtamode Branch",
-        location: "Opposite to Hotel Hicola Heritage, Birtamode-05, Jhapa, Nepal",
-        phone: "023-536424",
-        email: "herambjhabpkihs@gmail.com",
-        timing: "9:00 AM - 6:00 PM (Daily)",
-        mapLink: "https://www.google.com/maps/place/Pathivara+Dental+Care+%26+Implant+Center+Pvt.+Ltd/@26.6431114,87.9905726,17z/data=!3m1!4b1!4m6!3m5!1s0x39e5ba606ebb7741:0x4b8fc5e3d62f98eb!8m2!3d26.6431066!4d87.9931475!16s%2Fg%2F11c60g7c3d?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+        name: "Kathmandu Branch",
+        location: "Suncity, Kageshwori Manohara, Kathmandu, Nepal",
+        phone: "9819239757",
+        email: "pabanantar@gmail.com",
+        timing: "9:00 AM - 7:00 PM (Daily)",
+        timing2: "10:00 AM - 5:00 PM (Saturday)",
+        mapLink: "https://www.google.com/maps/place/Orchid+multispeciality+dental+clinic/@27.6935181,85.3677666,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb1b001b7d927b:0xf15f02eaa72154a!8m2!3d27.6935134!4d85.3703415!16s%2Fg%2F11yztv1lr9?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D"
     },
     {
-        name: "Pathivara Apollo Dental Clinic - Dhulabari Branch",
-        location: "20m north to Asian Highway, Mechinagar-10, Jhapa, Nepal",
-        phone: "023-564142",
-        email: "herambjhabpkihs@gmail.com",
-        timing: "9:00 AM - 6:00 PM (Daily)",
-        mapLink: "https://www.google.com/maps/place/Pathibhara+apollo+dental+clinic/@26.6607785,88.0955061,16.1z/data=!4m6!3m5!1s0x39e5b3a2262efc63:0x2dcb5a9e7a97b4b!8m2!3d26.6602595!4d88.1007196!16s%2Fg%2F11rls4n6sf?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
-    },
-    {
-        name: "New Pathivara Dental Care & Implant Centre - Birtamode Branch",
-        location: "Near Atithi Sadan, Birtamode, Jhapa, Nepal",
-        phone: "9842051732",
-        email: "herambjhabpkihs@gmail.com",
-        timing: "9:00 AM - 6:00 PM (Daily)",
-        mapLink: "https://www.google.com/maps/place/Atithi+Sadan,+Birtamod/@26.6445546,87.9888598,19.1z/data=!4m14!1m7!3m6!1s0x39e5ba606ebb7741:0x4b8fc5e3d62f98eb!2sPathivara+Dental+Care+%26+Implant+Center+Pvt.+Ltd!8m2!3d26.6431066!4d87.9931475!16s%2Fg%2F11c60g7c3d!3m5!1s0x39e5bbf30e18d899:0x6d7b00d815205f1e!8m2!3d26.6447428!4d87.9889347!16s%2Fg%2F11spdywy4y?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+        name: "Damak Branch",
+        location: "Namaste Hospital - First Floor, Damak, Jhapa, Nepal",
+        phone: "9819239757",
+        email: "pabanantar@gmail.com",
+        timing: "9:00 AM - 7:00 PM (Daily)",
+        timing2: "10:00 AM - 5:00 PM (Saturday)",
+        mapLink: "https://www.google.com/maps/place/ORCHID+MULTISPECIALTY+DENTAL/@26.6596615,87.6896107,17z/data=!3m1!4b1!4m6!3m5!1s0x39e58f003e7bd8f9:0x2d0ff4feb3bbfffd!8m2!3d26.6596567!4d87.6921856!16s%2Fg%2F11ldq1_rjh?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D"
     },
 ];
 
 const BranchCard = memo(({
-    name, location, phone, email, timing, mapLink
+    name, location, phone, email, timing, mapLink, timing2
 }: BranchData) => (
     <div className={styles.branchCard}>
         <div className={styles.cardHeader}>
@@ -93,6 +88,7 @@ const BranchCard = memo(({
                 <div>
                     <p className={styles.infoLabel}>Timing</p>
                     <p className={styles.infoText}>{timing}</p>
+                    <p className={styles.infoText}>{timing2}</p>
                 </div>
             </div>
         </div>
@@ -138,7 +134,7 @@ export const Branch = memo(() => (
                         color: 'var(--teal-gray)'
                     }}
                 >
-                    We have multiple branches across Jhapa to serve you better.
+                    We have multiple branches across Nepal to serve you better.
                     Visit the nearest branch for comprehensive dental care and
                     expert treatment with modern facilities.
                 </p>
@@ -153,6 +149,7 @@ export const Branch = memo(() => (
                         phone={branch.phone}
                         email={branch.email}
                         timing={branch.timing}
+                        timing2={branch.timing2}
                         mapLink={branch.mapLink}
                     />
                 ))}

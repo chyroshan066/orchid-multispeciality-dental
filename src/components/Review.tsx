@@ -65,7 +65,7 @@ export const Review = memo(() => {
           {/* Call to Action */}
           <div className="review-cta">
             <a
-              href="https://search.google.com/local/writereview?placeid=ChIJQXe7bmC65TkR65gv1uPFj0s"
+              href="https://g.page/r/CUoVcqou8BUPEBM/review"
               target="_blank"
               rel="noopener noreferrer"
               className="btn review-btn-primary"

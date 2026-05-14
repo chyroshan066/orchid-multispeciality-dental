@@ -22,7 +22,7 @@ interface AlertState {
 const initialValues: AppointmentFormData = {
     name: "",
     phone: "",
-    address: "Birtamode, Jhapa",
+    address: "Kathmandu, Nepal",
     date: "",
     time: "09:00am",
     message: "",
@@ -137,12 +137,8 @@ export const Appointment = memo(() => {
                         <h2 className="headline-1 text-center">Book Appointment</h2>
                         <div className={`text-center ${styles.formText}`}>
                             <p>
-                                Booking request <a href="tel:+97723536424" className={styles.link}>023-536424 </a>
-                                or fill out the appointment form (Birtamode)
-                            </p>
-                            <p>
-                                Booking request <a href="tel:+97723564142" className={styles.link}>023-564142 </a>
-                                or fill out the appointment form (Dhulabari)
+                                Booking request <a href="tel:+9779819239757" className={styles.link}>9819239757 </a>
+                                or fill out the appointment form
                             </p>
                         </div>
                         <div className={styles.inputWrapper}>
@@ -229,7 +225,7 @@ export const Appointment = memo(() => {
                                         </option>
                                     ))}
 
-                                    {[...Array(6)].map((_, index) => (
+                                    {[...Array(7)].map((_, index) => (
                                         <option
                                             key={index}
                                             value={`${index < 9 ? `0${1 + index}` : 1 + index}:00pm`}
@@ -274,29 +270,25 @@ export const Appointment = memo(() => {
                         <h2 className={`headline-1 text-center ${styles.headline1}`}>Contact Us</h2>
                         <p className={`contact-label ${styles.contactLabel}`}>Booking Request</p>
                         <a
-                            href="tel:+97723536424"
+                            href="tel:+9779819239757"
                             className="body-1 contact-number hover-underline"
                         >
-                            023-536424
+                            9819239757
                         </a>
                         <div className={`separator ${styles.separator}`}></div>
                         <p className={`contact-label ${styles.contactLabel}`}>Location</p>
                         <address className={`body-4 ${styles.body4}`}>
-                            Opposite to Hotel Hicola Heritage,  <br />
-                            Birtamode-05, Nepal
+                            Suncity, Kageshwori Manohara,  <br />
+                            Kathmandu, Nepal
                         </address>
                         <address className={`body-4 ${styles.body4}`}>
-                            Near Atithi Sadan,  <br />
-                            Birtamode-01, Nepal
-                        </address>
-                        <address className={`body-4 ${styles.body4}`}>
-                            20m north to Asian Highway,  <br />
-                            Mechinagar-10, Dhulabari
+                            Namaste Hospital - First Floor,  <br />
+                            Damak, Jhapa, Nepal
                         </address>
                         <p className={`contact-label ${styles.contactLabel}`}>Daily</p>
                         <p className={`body-4 ${styles.body4}`}>
                             {/* Sunday to Friday <br /> */}
-                            9.00 am - 6.00pm
+                            9.00 am - 7.00pm
                         </p>
                     </div>
                 </div>

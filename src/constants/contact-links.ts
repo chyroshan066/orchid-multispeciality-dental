@@ -1,24 +1,24 @@
 import { Contact } from "@/types";
 
 export const CONTACTS: Contact[] = [
+    // {
+    //     href: "tel:+97723536424",
+    //     ionIcon: "call-outline",
+    //     textNumber: "023-536424 (Birtamode)",
+    // },
+    // {
+    //     href: "tel:+97723564142",
+    //     ionIcon: "call-outline",
+    //     textNumber: "023-564142 (Dhulabari)",
+    // },
     {
-        href: "tel:+97723536424",
+        href: "tel:+9779819239757",
         ionIcon: "call-outline",
-        textNumber: "023-536424 (Birtamode)",
+        textNumber: "9819239757",
     },
     {
-        href: "tel:+97723564142",
-        ionIcon: "call-outline",
-        textNumber: "023-564142 (Dhulabari)",
-    },
-    {
-        href: "tel:+9779842051732",
-        ionIcon: "call-outline",
-        textNumber: "9842051732",
-    },
-    {
-        href: "https://wa.me/9779803365179",
+        href: "https://wa.me/9779849898058",
         ionIcon: "logo-whatsapp",
-        textNumber: "9803365179",
+        textNumber: "9849898058",
     },
 ];

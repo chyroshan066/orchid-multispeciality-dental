@@ -1,5 +1,5 @@
 import { About } from "@/components/About/About";
-import { Appointment } from "@/components/Appointment/Appointment";
+// import { Appointment } from "@/components/Appointment/Appointment";
 import { Branch } from "@/components/Branch/Branch";
 import { CallToAction } from "@/components/CallToAction/CallToAction";
 // import { Dentist } from "@/components/Dentist/Dentist";
@@ -20,7 +20,7 @@ export default function Home() {
           <Stats />
           <Service />
           <Hero />
-          <Appointment />
+          {/* <Appointment /> */}
           {/* <Intro /> */}
           <Facility />
           <About />
