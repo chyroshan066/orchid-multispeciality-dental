@@ -29,7 +29,7 @@ const BRANCHES: BranchData[] = [
         location: "Namaste Hospital - First Floor, Damak, Jhapa, Nepal",
         phone: "9819239757",
         email: "pabanantar@gmail.com",
-        timing: "9:00 AM - 7:00 PM (Daily)",
+        timing: "8:00 AM - 6:00 PM (Daily)",
         timing2: "10:00 AM - 5:00 PM (Saturday)",
         mapLink: "https://www.google.com/maps/place/ORCHID+MULTISPECIALTY+DENTAL/@26.6596615,87.6896107,17z/data=!3m1!4b1!4m6!3m5!1s0x39e58f003e7bd8f9:0x2d0ff4feb3bbfffd!8m2!3d26.6596567!4d87.6921856!16s%2Fg%2F11ldq1_rjh?entry=ttu&g_ep=EgoyMDI2MDUxMS4wIKXMDSoASAFQAw%3D%3D"
     },

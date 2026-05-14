@@ -209,4 +209,12 @@ export const SERVICES: Services[] = [
         href: "/#incision-and-drainage",
         idStr: "incision-and-drainage",
     },
+    {
+        id: 27,
+        imgSrc: "/images/service-icons/service-icon-27.webp",
+        name: "Teeth Implant",
+        text: "Permanent solution to replace missing teeth with natural strength.",
+        href: "/#teeth-implant",
+        idStr: "teeth-implant",
+    },
 ];

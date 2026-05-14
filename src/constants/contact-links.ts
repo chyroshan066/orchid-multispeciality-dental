@@ -17,8 +17,8 @@ export const CONTACTS: Contact[] = [
         textNumber: "9819239757",
     },
     {
-        href: "https://wa.me/9779849898058",
+        href: "https://wa.me/9779819239757",
         ionIcon: "logo-whatsapp",
-        textNumber: "9849898058",
+        textNumber: "9819239757",
     },
 ];
