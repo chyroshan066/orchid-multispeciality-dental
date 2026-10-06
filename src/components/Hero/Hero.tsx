@@ -10,8 +10,6 @@ import { HeroSlider } from "../HeroSlider";
 const HEROSLIDES: string[] = [
     "/images/dentists/d1.webp",
     "/images/dentists/d2.webp",
-    "/images/dentists/d3.webp",
-    "/images/dentists/d4.webp",
 ];
 
 export const Hero = memo(() => (
